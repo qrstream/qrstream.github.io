@@ -1,0 +1,37 @@
+.flex-center {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.top-left { position: absolute; top: 0; bottom: 50%; left: 0; right: 50%; 
+  border-top: 3px solid darkred; margin-top: 10px;
+  border-left: 3px solid darkred; margin-left: 10px;
+  border-right: 3px solid darkred; margin-right: 30px; margin-bottom: -33px; padding-bottom: 33px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.bottom-left{ position: absolute; top: 50%; bottom: 0; left: 0; right: 50%; 
+  border-left: 3px solid darkred; margin-left: 10px;
+  border-bottom: 3px solid darkred; margin-bottom: 10px;
+  border-bottom-left-radius: 30px;
+}
+.bottom-right{ position: absolute; top: 50%; bottom: 0; left: 50%; right: 0; 
+  border-top: 3px solid darkred; margin-top: 30px; margin-left: -33px; padding-left: 33px;
+  border-right: 3px solid darkred; margin-right: 10px;
+  border-bottom: 3px solid darkred; margin-bottom: 10px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.top-right{ position: absolute; top: 0; bottom: 50%; left: 50%; right: 0;
+  border: 3px solid darkblue;
+  margin-left: 30px; margin-top: 10px; margin-right: 10px; margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+
+.flex-center img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
