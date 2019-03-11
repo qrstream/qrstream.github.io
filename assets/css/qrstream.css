@@ -1,4 +1,6 @@
-
+#clustrmaps-widget-v2 {
+  display: None;
+}
 .qrstream-container {
   min-width: 1820px;
   position:absolute;
